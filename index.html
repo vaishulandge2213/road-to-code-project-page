@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boady {
+            background-color: rgb(225, 222, 222);
+        }
+
+        .container {
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .item {
+            height: 380px;
+            width: 300px;
+            margin: 5px;
+            border: 1px solid rgb(237, 232, 232);
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .item:hover {
+            border: 1px solid rgb(206, 203, 203);
+
+        }
+
+        .main-logo {
+            border-radius: 10px 10px 0px 0px;
+            margin-bottom: 10px;
+        }
+
+        .project-heading {
+            font-size: 23px;
+            font-weight: 1000;
+            font-family: serif;
+        }
+
+        .sub-container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .couse-name {
+            background-color: rgb(179, 227, 246);
+            padding: 4px;
+            border-radius: 4px;
+        }
+
+        .project-description {
+            font-size: 14px;
+            color: rgb(105, 105, 105);
+        }
+
+        .tech-stack {
+            display: flex;
+            margin: 2px;
+        }
+
+        .tech-1 {
+            background-color: rgb(243, 240, 239);
+            padding: 4px 20px;
+            border-radius: 20px;
+            margin-right: 10px;
+            font-size: 12px;
+            border: 1px solid rgb(239, 114, 79);
+
+        }
+
+        .tech-2 {
+            background-color: rgb(216, 218, 221);
+            padding: 4px 20px;
+            border-radius: 20px;
+            margin-right: 10px;
+            font-size: 12px;
+            border: 1px solid rgb(34, 94, 236);
+
+        }
+
+        .tech-3 {
+            background-color: rgb(211, 208, 208);
+            padding: 4px 20px;
+            border-radius: 20px;
+            margin-right: 10px;
+            font-size: 12px;
+            border: 1px solid rgb(20, 1, 1);
+
+        }
+
+        .project-duration {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+
+        .project-duration-info {
+            font-size: 13px;
+        }
+
+        .user-profile-img {
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .project-duration-subinfo {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .calender-img {
+            margin-right: 5px;
+        }
+
+        .hr-line {
+            margin: 10px 0px;
+            border: gray 0.5 solid;
+        }
+
+        .additional {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .additional-sub-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="./images/road-to-code-home-page.png" width="300px" class="main-logo" />
+            <div class="sub-container">
+                <span class="project-heading">Rode To Code</span><br />
+                <span class="couse-name">Internship cohort program 14.0</span>
+                <p class="project-description">This project server as the foundation for an e-commerce website
+                    specializing in the sale of electronic gadgets. With..
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-1"><img src="./images/html-logo.jpg" height="10px" />HTML</span>
+                    <span class="tech-2"><img src="./images/css-logo.png" height="10px" />CSS</span>
+                    <span class="tech-3"><img src="./images/github-logo.png" height="10px" />GitHub</span>
+                </div>
+                <div class="project-duration">
+
+                    <div class="project-duration-subinfo">
+                        <img src="./images/calendar-logo.svg" height="15px" class="calender-img" />
+                        <span class="project-duration-info">Nov 2024 - nov 2024</span>
+                    </div>
+
+                    <div class="project-duration-subinfo">
+                        <image src="./images/vaishu-profile.jpg" height="20px" class="user-profile-img" />
+                        <span class="project-duration-info">Vaishu Landge</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-line" />
+
+            <div class="additional">
+                <div class="additional-sub-info">
+                    <img src="./images/deafult-clap-logo.svg" height="22px" />
+                    <span>123</span>
+                    <img src="./images/comment-logo.png" height="25px" />
+                    <span>4</span>
+                    <img src="./images/share-logo.svg" height="20px" />
+                </div>
+                <div>
+                    <span class="additional-sub-info-2"> See More -></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
